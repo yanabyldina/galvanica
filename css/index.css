@@ -2,7 +2,7 @@
 
 body {
     margin: auto;
-    max-width: 1300px;
+    max-width: 1000px;
     
 }
  h2 {
@@ -12,6 +12,5 @@ body {
      
  }
 
-header img {
-    max-height: 35px;
-}
+
+
