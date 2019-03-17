@@ -6,8 +6,10 @@ body {
     background: linear-gradient(grey, transparent),
     linear-gradient(to top left, black, transparent),
     linear-gradient(to top right, white, transparent);
+    font-family: PT Sans ;
 
 }
+
 
 #carousel {
     height: 400px;
@@ -16,26 +18,65 @@ body {
 #carousel img {
     max-height: 550px;
 }
-#about-company {
+.about-us {
     max-width: 980px ;
 }
-#about-company {
+.about-us {
     display:grid;
-     grid-template-columns: 65% 15% ;s
+     grid-template-columns: 60% 20% 20% ;      
 }
-.about-company-img {
-    display: block;
+
+.about-company-img  {
+    display: grid;    
+ }
+
+.about-company-img1 {
+    display: grid; 
 }
-.about-company-img img {
-    max-height: 200px ;
+.about-company-img  img {
+    max-height: 150px ;
+}
+.about-company-img1  img {
+    max-height: 150px ;
 }
 
 .navbar-brand img {
    max-height: 35px;
 }
+.navbar-brand {
+      font-family: Noto Serif;
+}
 
 h2 {
     text-align: center;
     margin-top: 10px;
-    color: red;
+    color: #8B0000;
 }
+
+#products img {
+     max-height: 150px ;
+}
+
+#products {
+    display: grid ;
+    display:block;
+  }
+
+
+.products1 {
+    display: grid ;
+    grid-template-columns: 70% 30% ;
+
+} 
+
+.products2 {
+    display: grid ;
+    grid-template-columns: 1fr 1fr 1fr;
+
+} 
+
+.products3 {
+    display: grid ;
+    grid-template-columns: 30% 70%;
+
+} 
