@@ -3,9 +3,13 @@
 body {
     margin: 0 auto;
     max-width: 1200px;
+    background: linear-gradient(white, transparent),
+    linear-gradient(to top left, grey, transparent),
+    linear-gradient(to top right, black, transparent);
+
 }
 
-  #carousel {
+#carousel {
     height: 400px;
 }
 
@@ -13,12 +17,9 @@ body {
     max-height: 550px;
 }
 
- h2 {
-     text-align: center ;
-     margin-top: 10px ;
-     color: red;
-     
- }
+h2 {
+    text-align: center;
+    margin-top: 10px;
+    color: red;
 
-
-
+}
