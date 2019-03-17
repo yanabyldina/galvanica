@@ -16,13 +16,26 @@ body {
 #carousel img {
     max-height: 550px;
 }
+#about-company {
+    max-width: 980px ;
+}
+#about-company {
+    display:grid;
+     grid-template-columns: 65% 15% ;s
+}
+.about-company-img {
+    display: block;
+}
+.about-company-img img {
+    max-height: 200px ;
+}
+
+.navbar-brand img {
+   max-height: 35px;
+}
 
 h2 {
     text-align: center;
     margin-top: 10px;
     color: red;
-}
-
-.navbar-brand img {
-    max-height: 30px;
 }
