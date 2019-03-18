@@ -6,7 +6,7 @@ body {
     background: linear-gradient(grey, transparent),
     linear-gradient(to top left, black, transparent),
     linear-gradient(to top right, white, transparent);
-    font-family: PT Sans ;
+    font-family: PT Sans;
 
 }
 
@@ -18,33 +18,38 @@ body {
 #carousel img {
     max-height: 550px;
 }
+
 .about-us {
-    max-width: 980px ;
-}
-.about-us {
-    display:grid;
-     grid-template-columns: 60% 20% 20% ;      
+    max-width: 980px;
 }
 
-.about-company-img  {
-    display: grid;    
- }
+.about-us {
+    display: grid;
+    grid-template-columns: 60% 20% 20%;
+}
+
+.about-company-img {
+    display: grid;
+}
 
 .about-company-img1 {
-    display: grid; 
+    display: grid;
 }
-.about-company-img  img {
-    max-height: 150px ;
+
+.about-company-img img {
+    max-height: 150px;
 }
-.about-company-img1  img {
-    max-height: 150px ;
+
+.about-company-img1 img {
+    max-height: 150px;
 }
 
 .navbar-brand img {
-   max-height: 35px;
+    max-height: 35px;
 }
+
 .navbar-brand {
-      font-family: Noto Serif;
+    font-family: Noto Serif;
 }
 
 h2 {
@@ -54,29 +59,158 @@ h2 {
 }
 
 #products img {
-     max-height: 150px ;
+    max-height: 150px;
 }
 
 #products {
-    display: grid ;
-    display:block;
-  }
+    display: grid;
 
+    min-height: 400px;
+    grid-gap: 25px;
+    grid-row: 35px;
+
+
+
+}
 
 .products1 {
-    display: grid ;
-    grid-template-columns: 70% 30% ;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-gap: 25px;
+    grid-row: 35px;
 
-} 
+
+}
+
+#products a {
+    text-decoration: none;
+    color: #8B0000;
+
+
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 25px;
+    text-align: center;
+
+
+
+}
+
+.item1,
+.item3,
+.item4,
+.item5,
+.item6 {
+    max-height: 400px;
+    background-image: url(https://yanabyldina.github.io/hydrauliCenter/img/4.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    background-position: center;
+
+}
+
+.item2,
+.item7 {
+    max-height: 400px;
+    background-image: url(https://yanabyldina.github.io/hydrauliCenter/img/8.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    background-position: center;
+}
+
 
 .products2 {
-    display: grid ;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 25px;
+    grid-row: 35px;
 
-} 
+}
 
 .products3 {
-    display: grid ;
+    display: grid;
     grid-template-columns: 30% 70%;
+    grid-gap: 25px;
+    grid-row: 35px;
 
-} 
+}
+
+.item1 a {
+    display: none;
+}
+
+.item1:hover a {
+    display: block;
+    opacity: 1;
+
+    cursor: pointer;
+}
+
+.item2 a {
+    display: none;
+}
+
+.item2:hover a {
+    display: block;
+    opacity: 1;
+
+    cursor: pointer;
+}
+
+
+.item3 a {
+    display: none;
+}
+
+.item3:hover a {
+    display: block;
+    opacity: 1;
+
+    cursor: pointer;
+
+
+}
+
+.item4 a {
+    display: none;
+}
+
+.item4:hover a {
+    display: block;
+    opacity: 1;
+    cursor: pointer;
+}
+.item5 a {
+    display: none;
+}
+
+.item5:hover a {
+    display: block;
+    opacity: 1;
+    cursor: pointer;
+}
+.item6 a {
+    display: none;
+}
+
+.item6:hover a {
+    display: block;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.item7 a {
+    display: none;
+}
+
+.item7:hover a {
+    display: block;
+    opacity: 1;
+    cursor: pointer;
+}
