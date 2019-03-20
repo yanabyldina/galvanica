@@ -96,13 +96,13 @@ h2 {
 
 }
 
-.item1,
+.item2,
 .item3,
 .item4,
 .item5,
 .item6 {
     max-height: 400px;
-    background-image: url(img/9.jpg);
+    background-image: url(https://userscontent2.emaze.com/images/d1284867-5928-4ab1-b205-93479cdb9712/045cb36162c590f0c713bb2f2a23b0df.gif);
     background-size: cover;
     display: flex;
     align-items: center;
@@ -112,10 +112,10 @@ h2 {
 
 }
 
-.item2,
+.item1,
 .item7 {
     max-height: 400px;
-    background-image: url(https://yanabyldina.github.io/hydrauliCenter/img/8.png);
+    background-image: url(http://www.formica.com/~/media/emea/images/decors/eu/f1534.jpg?bmw=true&fd=true);
     background-size: cover;
     display: flex;
     align-items: center;
@@ -186,6 +186,7 @@ h2 {
     opacity: 1;
     cursor: pointer;
 }
+
 .item5 a {
     display: none;
 }
@@ -195,6 +196,7 @@ h2 {
     opacity: 1;
     cursor: pointer;
 }
+
 .item6 a {
     display: none;
 }
